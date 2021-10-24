@@ -86,14 +86,14 @@ section h2 {
 }
 
 .content p {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
     font-size: 20px;
 }
 
 #about-me {
     border-radius: 5px;
     border-color: black;
+    height: fit-content;
 }
 
 #projects {
