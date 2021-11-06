@@ -48,8 +48,8 @@ p {
     font-size: 16px;
 }
 
-.math {
-    height: 300px;
+#banner {
+    height: 180px;
     width: inherit;
     border-radius: 5px;
     margin: 10px;
@@ -86,20 +86,19 @@ section h2 {
 }
 
 .content p {
-    padding: 50px;
+    padding: 40px;
     font-size: 20px;
 }
 
 #about-me {
     border-radius: 5px;
-    border-color: black;
     height: fit-content;
 }
 
 #projects {
     display: flex;
     flex-wrap: wrap;
-    height: 375px;
+    height: max-content;
     border-radius: 5px;
 }
 
@@ -108,7 +107,7 @@ section h2 {
     height: 150px;
     width: 150px;
     padding: 10px;
-    margin: 10px;
+    margin: 40px;
     text-align: center;
 }
 
@@ -120,13 +119,14 @@ section h2 {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-right: 10px;
     padding: 20px;
-    clear: both;
     float: left;
-    width: 20%;
-    height: 100%;
+    width: 330px;
+    height: 526px;
     background-image: linear-gradient(to right, rgb(8, 142, 151) , rgb(5, 82, 170));
     border-radius: 5px;
 }
